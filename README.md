@@ -42,6 +42,7 @@ git clone https://github.com/xyz-rainbow/music-art.git ~/.agents/skills/music-ar
 ## 🌟 Key Features
 
 - 🧮 **Mathematical Bitrate Maximization**: Computes `TargetBitrate = floor((SafeBudgetBytes * 8) / Duration / 1000)` and snaps to optimal discrete AAC bitrates (64k–256k).
+- 🌈 **Chromatic & Character Playlist Variation**: Anti-monotony engine dynamically assigns matching lore palettes (Purple, Cyan, Lime Green, Molten Orange, Blood Crimson, Pastels) and diverse avatars across large playlists.
 - 🖼️ **1:1 Square Album Artwork**: Eliminates awkward 16:9 YouTube video thumbnails and replaces them with tailored 1:1 square covers with typography.
 - 💬 **Interactive Session Storage Prompter**: Always clarifies or checks where artwork files should be stored (`/cover` folder, central drive, or direct embedding).
 - 💎 **Lossless Artwork Muxing**: Fast, zero-recompression metadata injection using FFmpeg's `-c:a copy -c:v copy -disposition:v:0 attached_pic`.
@@ -77,6 +78,12 @@ python scripts/storage_prompter.py --get
 
 # Register a custom directory for the active session:
 python scripts/storage_prompter.py --set "U:/Music/ADHD/cover"
+```
+
+### 5. Generate Playlist Chromatic & Character Variation Plan
+```bash
+# Generate a diverse palette & avatar plan across track titles:
+python scripts/playlist_variation.py "02 Extraction Action" "03 The Rebel Path" "04 The Streets Are Long-Ass Gutters" --json
 ```
 
 ---

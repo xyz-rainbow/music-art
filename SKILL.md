@@ -155,6 +155,46 @@ ffmpeg -y -i "input.m4a" -i "cover.jpg" \
 
 ---
 
+## 🌈 Step 5: Chromatic & Character Playlist Variation Protocol (Anti-Monotony Engine)
+
+When processing an entire album or playlist (e.g. 15–40 tracks), **never repeat the same single color or single character pose** across every track. The AI agent must dynamically vary both the chromatic palette and character avatar based on the emotional and semantic essence of each track title:
+
+### 1. Semantic Color Mapping Rules
+- **🟣 Neon Violet / Purple**: Mystical, psychological, braindance, memory, trance, dreams, nighttime (`#3b0764`, `#a855f7`).
+- **🔵 Electric Cyan / Deep Teal**: Netrunning, data streams, cyberspace, rain, water, alleys, sleek technology (`#06b6d4`, `#083344`).
+- **🟢 Toxic Lime / Acid Green**: Scavengers, hazardous zones, bio-toxins, illegal streetware, raw industrial (`#84cc16`, `#22c55e`).
+- **🟠 Molten Orange / Warm Solar Amber**: High-octane combat, explosions, desert badlands, nomad caravans, sunset chases (`#ea580c`, `#f59e0b`).
+- **🔴 Blood Crimson / Obsidian Red**: MaxTac emergency, elite assassinations, cyberpsycho lockdown, vengeance, Adam Smasher (`#b91c1c`, `#450a0a`).
+- **🟡 Imperial Gold / Lacquer Scarlet**: Corporate boardrooms, Arasaka parade, sacred shrines, luxury high-rises (`#eab308`, `#991b1b`).
+- **🌸 Pastel Dream (Lavender, Mint, Dusky Peach)**: Emotional endings, peaceful moments, melancholic braindance, acoustic interludes (`#d8b4fe`, `#a7f3d0`).
+
+### 2. Character & Avatar Rotation Protocol
+Rotate through lore-accurate archetypes matching the track's context instead of fixating on one character:
+- **Protagonists**: Alternate between Male V and Female V in different loadouts (tactical, mantis blades, smart guns).
+- **Rockerboys / Legends**: Johnny Silverhand (chrome arm, guitar, Malorian pistol, aviators).
+- **Netrunners & Specialists**: Cyberspace divers with neural cables, holographic visors, and glowing monowires.
+- **Paramedics & Law**: Heavy Trauma Team operators with tactical visors; MaxTac tactical officers.
+- **Street Gangs & Outcasts**: Mox cyber-punk bouncers with neon bats; Scavenger / Maelstrom multi-lens borgs; Nomads with sniper rifles.
+- **Corporate Assassins**: Arasaka Cyberninjas (Oda style) with twin glowing thermal katanas.
+
+### 3. Universal High-Impact Prompt Formula
+For any track, structure the image generation prompt with these 5 anchored pillars:
+```text
+A high-end 1:1 square music album cover art for '[TRACK_TITLE]'.
+[STYLE ANCHOR]: Maintaining the authentic [FRANCHISE/GENRE] Original Score collector edition aesthetic with a [COLOR_PALETTE] theme.
+[BACKGROUND]: [COLOR_BG_DESCRIPTION], featuring subtle futuristic silhouettes of [SCENERY_ELEMENTS].
+[CHARACTER & POSE]: [LORE_AVATAR_DESCRIPTION], positioned dynamically with [SPECIFIC_NEON_RIM_LIGHTING].
+[TYPOGRAPHY]: Integrated bold angular cyberpunk typography with technical geometric brackets reading '[TRACK_NUM]. [TRACK_TITLE]'.
+[FINISH]: High-contrast, cinematic, collectible vinyl soundtrack quality, 1:1 aspect ratio.
+```
+
+Generate the variation plan via script:
+```bash
+python scripts/playlist_variation.py "02 Extraction Action" "03 The Rebel Path" "04 The Streets Are Long-Ass Gutters"
+```
+
+---
+
 ## 🛠️ Multi-Agent Compatibility Matrix
 
 | AI Agent | Integration Method | Capabilities |
@@ -171,3 +211,4 @@ ffmpeg -y -i "input.m4a" -i "cover.jpg" \
 ## 📄 License
 
 MIT License. Crafted with ❤️ by [xyz-rainbow](https://github.com/xyz-rainbow).
+
